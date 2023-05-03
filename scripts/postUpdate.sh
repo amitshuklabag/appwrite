@@ -2,6 +2,7 @@
 #set -o allexport; source .env; set +o allexport;
 
 echo "Running migration...";
-sleep 10s;
+sleep 60s;
+echo "Sleep...";
 
 docker-compose exec appwrite migrate
