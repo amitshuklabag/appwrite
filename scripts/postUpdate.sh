@@ -5,4 +5,4 @@ echo "Running migration...";
 sleep 60s;
 echo "Sleep...";
 
-docker-compose exec appwrite migrate
+docker-compose exec -T appwrite migrate
